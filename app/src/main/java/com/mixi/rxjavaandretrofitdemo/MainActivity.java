@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNext(List<Subject> subjects) {
-                Log.e("mixi",Thread.currentThread().getName());
+                Log.e("mixia",Thread.currentThread().getName());
                 Log.e("mixi",""+ Arrays.toString(subjects.toArray()));
             }
         },0,10);
